@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyDiploma</string>
+    <string name="exerciseForSpine">Упражнения для позвоночника</string>
+    <string name="exerciseForFoot">Упражнения для ног</string>
+    <string name="exerciseForHand">Упражнения для рук</string>
+    <string name="exerciseForСervical">Шейный отдел</string>
+    <string name="exerciseForThoracic">Грудной отдел</string>
+    <string name="exerciseForLumbar">Поясничный отдел</string>
+    <string name="favorite">Избранное</string>
+    <string name="appName">ЛФК в домашних условиях</string>
 </resources>
