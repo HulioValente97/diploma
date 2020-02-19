@@ -1,11 +1,20 @@
 <resources>
-    <string name="app_name">MyDiploma</string>
+    <string name="app_name">Healing Fitness</string>
     <string name="exerciseForSpine">Упражнения для позвоночника</string>
-    <string name="exerciseForFoot">Упражнения для ног</string>
-    <string name="exerciseForHand">Упражнения для рук</string>
     <string name="exerciseForСervical">Шейный отдел</string>
     <string name="exerciseForThoracic">Грудной отдел</string>
     <string name="exerciseForLumbar">Поясничный отдел</string>
+
+    <string name="exerciseForHand">Упражнения для рук</string>
+    <string name="exerciseForShoulder">Плечевой сустав</string>
+    <string name="exerciseForElbow">Локтевой сустав</string>
+    <string name="exerciseForBrush">Кисть</string>
+
+    <string name="exerciseForFoot">Упражнения для ног</string>
+    <string name="exerciseForHip">Тазобедренный сустав</string>
+    <string name="exerciseForKnee">Коленный сустав</string>
+    <string name="exerciseForAnkle">Голеностопный сустав</string>
+
     <string name="favorite">Избранное</string>
     <string name="appName">ЛФК в домашних условиях</string>
 </resources>
