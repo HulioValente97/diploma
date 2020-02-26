@@ -10,25 +10,88 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Foot.AnkleActivity"
+            android:parentActivityName=".FootActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FootActivity" />
+        </activity>
+        <activity
+            android:name=".Foot.KneeActivity"
+            android:parentActivityName=".FootActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FootActivity" />
+        </activity>
+        <activity
+            android:name=".Foot.HipActivity"
+            android:parentActivityName=".FootActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FootActivity" />
+        </activity>
+        <activity
+            android:name=".Hand.BrushActivity"
+            android:parentActivityName=".HandActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HandActivity" />
+        </activity>
+        <activity
+            android:name=".Hand.ElbowActivity"
+            android:parentActivityName=".HandActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HandActivity" />
+        </activity>
+        <activity
+            android:name=".Hand.ShoulderActivity"
+            android:parentActivityName=".HandActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HandActivity" />
+        </activity>
+        <activity
+            android:name=".Spine.LumbarActivity"
+            android:parentActivityName=".SpineActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpineActivity" />
+        </activity>
+        <activity
+            android:name=".Spine.ThoracicActivity"
+            android:parentActivityName=".SpineActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpineActivity" />
+        </activity>
+        <activity
+            android:name=".Spine.CervicalActivity"
+            android:parentActivityName=".SpineActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpineActivity" />
+        </activity>
+        <activity
             android:name=".HandActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".FootActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".SpineActivity"
             android:parentActivityName=".MainActivity">
-        <meta-data
+            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
