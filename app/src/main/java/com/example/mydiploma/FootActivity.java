@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+import com.example.mydiploma.Foot.AnkleActivity;
 import com.example.mydiploma.Foot.HipActivity;
 import com.example.mydiploma.Foot.KneeActivity;
 import com.example.mydiploma.Hand.BrushActivity;
@@ -58,7 +59,7 @@ public class FootActivity extends AppCompatActivity implements View.OnClickListe
                 Animatoo.animateSlideLeft(FootActivity.this);
                 break;
             case R.id.buttonAnkle:
-                startActivity(new Intent(FootActivity.this, BrushActivity.class));
+                startActivity(new Intent(FootActivity.this, AnkleActivity.class));
                 Animatoo.animateSlideLeft(FootActivity.this);
                 break;
 
