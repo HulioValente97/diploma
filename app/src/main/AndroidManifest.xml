@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mydiploma">
 
     <application
@@ -8,93 +9,128 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
             android:name=".Foot.AnkleActivity"
             android:label="@string/exerciseForAnkle"
-            android:parentActivityName=".FootActivity">
+            android:parentActivityName=".FootActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FootActivity" />
         </activity>
         <activity
             android:name=".Foot.KneeActivity"
-            android:parentActivityName=".FootActivity">
+            android:label="@string/exerciseForKnee"
+            android:parentActivityName=".FootActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FootActivity" />
         </activity>
         <activity
             android:name=".Foot.HipActivity"
-            android:parentActivityName=".FootActivity">
+            android:label="@string/exerciseForHip"
+            android:parentActivityName=".FootActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FootActivity" />
         </activity>
         <activity
             android:name=".Hand.BrushActivity"
-            android:parentActivityName=".HandActivity">
+            android:label="@string/exerciseForBrush"
+            android:parentActivityName=".HandActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HandActivity" />
         </activity>
         <activity
             android:name=".Hand.ElbowActivity"
-            android:parentActivityName=".HandActivity">
+            android:label="@string/exerciseForElbow"
+            android:parentActivityName=".HandActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HandActivity" />
         </activity>
         <activity
             android:name=".Hand.ShoulderActivity"
-            android:parentActivityName=".HandActivity">
+            android:label="@string/exerciseForShoulder"
+            android:parentActivityName=".HandActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HandActivity" />
         </activity>
         <activity
             android:name=".Spine.LumbarActivity"
-            android:parentActivityName=".SpineActivity">
+            android:label="@string/exerciseForLumbar"
+            android:parentActivityName=".SpineActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SpineActivity" />
         </activity>
         <activity
             android:name=".Spine.ThoracicActivity"
-            android:parentActivityName=".SpineActivity">
+            android:label="@string/exerciseForThoracic"
+            android:parentActivityName=".SpineActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SpineActivity" />
         </activity>
         <activity
             android:name=".Spine.CervicalActivity"
-            android:parentActivityName=".SpineActivity">
+            android:label="@string/exerciseForСervical"
+            android:parentActivityName=".SpineActivity"
+            tools:ignore="InnerclassSeparator"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SpineActivity" />
         </activity>
         <activity
             android:name=".HandActivity"
-            android:parentActivityName=".MainActivity">
+            android:label="@string/exerciseForHand"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".FootActivity"
-            android:parentActivityName=".MainActivity">
+            android:label="@string/exerciseForFoot"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".SpineActivity"
-            android:parentActivityName=".MainActivity">
+            android:label="@string/exerciseForSpine"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
